@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-starts;
+    justify-content:space-between;
+    padding: 1% 3%;
+
+}
+.header_link {
+    color: black;
+    font-family: 'Montserrrat', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1s;
+}
+.header_link:hover {
+    text-decoration: underline;
+    transition: 1s;
+} 
+.header_link_span {
+    color: red;
+}
+
+.header_block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+}
+.header_image2 {
+    width: 40px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 3%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.main_news {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    gap: 50px;
+}
+.main_news_block_image {
+    width: 400px;
+}
+.main_wrapper_news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    margin-top: 50px;
+}
+.main_header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 58px;
+}
+.main_news_header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+.main_news_block_parag {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.main_news_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 3%;
+}
+.footer_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.footer_wrapper_image {
+    width: 20px;
+}
